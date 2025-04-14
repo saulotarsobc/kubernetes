@@ -11,6 +11,7 @@ kubectl wait --namespace ingress-nginx --for=condition=ready pod --selector=app.
 
 Write-host "Configure ingress";
 kubectl apply -f "ingress-config.yaml";
+Start-Sleep 10;
 
 Write-host "Install apps";
 kubectl apply -f "apps-sample.yaml";
