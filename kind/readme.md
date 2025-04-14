@@ -27,7 +27,9 @@ kubectl wait --namespace ingress-nginx --for=condition=ready pod --selector=app.
 ## Ingress Config
 
 ```bash
+# apply
 kubectl apply -f "ingress-config.yaml";
+# delete
 kubectl delete -f "ingress-config.yaml";
 ```
 
