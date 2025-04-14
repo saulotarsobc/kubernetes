@@ -14,6 +14,7 @@ winget install --id Kubernetes.kind;
 
 ```ps1
 kind create cluster --name 'meu-cluster' --config 'kind-config.yaml';
+kubectl get nodes -o wide;
 ```
 
 ```ps1
