@@ -10,6 +10,7 @@ kubectl apply -f "ingress-nginx.yaml";
 kubectl wait --namespace ingress-nginx --for=condition=ready pod --selector=app.kubernetes.io/component=controller --timeout=300s;
 
 Write-host "`nConfigure ingress" -ForegroundColor Blue;
+Start-Sleep 5;
 kubectl apply -f "ingress-config.yaml";
 Start-Sleep 10;
 
