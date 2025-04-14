@@ -1,5 +1,9 @@
 # Kind
 
+## Help
+
+- [Kubernetes com Kind: O guia definitivo](https://youtu.be/Fq-F63QfIVw)
+
 ## Install kind on windows
 
 ```ps1
